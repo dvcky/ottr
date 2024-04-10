@@ -1,0 +1,6 @@
+IN BOTH FILES:
+1. Include `syntax = "proto2";`
+2. Replace any "package" with `option go_package = ".";`
+
+IN COMMAND PROMPT:
+1. Run `protoc --go_out=. nyct-subway.proto`
